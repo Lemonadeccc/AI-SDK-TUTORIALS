@@ -13,6 +13,9 @@ export default function Home() {
       <div>
         <Link href="/ui/chat">Chat</Link>
       </div >
+      <div>
+        <Link href="/ui/structured-data">Structured Data</Link>
+      </div >
     </>
   );
 }
