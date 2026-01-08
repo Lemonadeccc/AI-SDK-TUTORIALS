@@ -16,6 +16,12 @@ export default function Home() {
       <div>
         <Link href="/ui/structured-data">Structured Data</Link>
       </div >
+      <div>
+        <Link href="/ui/structured-array">Structured Array</Link>
+      </div >
+      <div>
+        <Link href="/ui/structured-enum">Structured Enum</Link>
+      </div >
     </>
   );
 }
