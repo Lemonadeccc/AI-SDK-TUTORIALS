@@ -6,7 +6,14 @@ export async function POST(req: Request) {
     const { messages }: { messages: UIMessage[] } = await req.json();
     const result = streamText({
       model: deepseek("deepseek-chat"),
-      messages: await convertToModelMessages(messages),
+      messages: [
+        {
+          role: "system",
+          content:
+            "You are a helpful assistant.Keep response under 3 sentences and focus on practical examples",
+        },
+        ...(await convertToModelMessages(messages)),
+      ],
     });
 
     result.usage.then((usage) => {
