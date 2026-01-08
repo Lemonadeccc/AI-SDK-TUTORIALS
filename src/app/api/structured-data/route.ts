@@ -1,4 +1,4 @@
-import { streamObject } from "ai";
+import { streamText, Output } from "ai";
 import { deepseek } from "@ai-sdk/deepseek";
 import { recipeSchema } from "./schema";
 
@@ -6,9 +6,9 @@ export async function POST(req: Request) {
   try {
     const { dish } = await req.json();
 
-    const result = streamObject({
+    const result = streamText({
       model: deepseek("deepseek-chat"),
-      schema: recipeSchema,
+      output: Output.object({ schema: recipeSchema }),
       prompt: `Create a recipe for ${dish}`,
     });
 
