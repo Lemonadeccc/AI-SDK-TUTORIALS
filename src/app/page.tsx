@@ -10,6 +10,9 @@ export default function Home() {
       <div>
         <Link href="/ui/stream">Stream</Link>
       </div >
+      <div>
+        <Link href="/ui/chat">Chat</Link>
+      </div >
     </>
   );
 }
