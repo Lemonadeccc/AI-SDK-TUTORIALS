@@ -25,6 +25,9 @@ export default function Home() {
       <div>
         <Link href="/ui/multi-modal-chat">Multi Modal Chat</Link>
       </div >
+      <div>
+        <Link href="/ui/generate-image">Generate Image</Link>
+      </div >
     </>
   );
 }
