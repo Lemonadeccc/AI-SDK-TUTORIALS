@@ -22,6 +22,9 @@ export default function Home() {
       <div>
         <Link href="/ui/structured-enum">Structured Enum</Link>
       </div >
+      <div>
+        <Link href="/ui/multi-modal-chat">Multi Modal Chat</Link>
+      </div >
     </>
   );
 }
