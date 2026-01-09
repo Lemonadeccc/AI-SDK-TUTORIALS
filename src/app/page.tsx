@@ -28,6 +28,9 @@ export default function Home() {
       <div>
         <Link href="/ui/generate-image">Generate Image</Link>
       </div >
+      <div>
+        <Link href="/ui/transcribe-audio">Transcribe Audio</Link>
+      </div >
     </>
   );
 }
