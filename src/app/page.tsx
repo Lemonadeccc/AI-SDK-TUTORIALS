@@ -58,6 +58,9 @@ export default function Home() {
       <div>
         <Link href="/ui/reasoning">Reasoning</Link>
       </div>
+      <div>
+        <Link href="/ui/message-metadata">Message Metadata</Link>
+      </div>
     </>
   );
 }
