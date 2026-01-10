@@ -52,6 +52,9 @@ export default function Home() {
       <div>
         <Link href="/ui/client-side-tools">Client Side Tools</Link>
       </div>
+      <div>
+        <Link href="/ui/mcp-tools">MCP Tools</Link>
+      </div>
     </>
   );
 }
