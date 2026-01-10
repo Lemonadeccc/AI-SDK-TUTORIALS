@@ -10,7 +10,8 @@ export async function POST(req: Request) {
       text: text,
     });
 
-    const audioBlob = new Blob([audio.uint8Array]);
+    const safeBytes = new Uint8Array(audio.uint8Array);
+    const audioBlob = new Blob([safeBytes]);
 
     return new Response(audioBlob, {
       headers: {
