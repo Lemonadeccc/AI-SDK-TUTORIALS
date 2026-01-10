@@ -10,7 +10,12 @@ export async function POST(req: Request) {
       text: text,
     });
 
-    return new Response(audio.uint8Array, {
+    const audioBuffer = audio.uint8Array.buffer.slice(
+      audio.uint8Array.byteOffset,
+      audio.uint8Array.byteOffset + audio.uint8Array.byteLength
+    );
+
+    return new Response(audioBuffer, {
       headers: {
         "Content-Type": audio.mediaType || "audio/mpeg",
       },
