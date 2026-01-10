@@ -40,6 +40,9 @@ export default function Home() {
       <div>
         <Link href="/ui/multiple-tools">Multiple Tools</Link>
       </div>
+      <div>
+        <Link href="/ui/api-tool">Api Tool</Link>
+      </div>
     </>
   );
 }
