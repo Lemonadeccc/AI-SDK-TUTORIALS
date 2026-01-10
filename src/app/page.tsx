@@ -37,6 +37,9 @@ export default function Home() {
       <div>
         <Link href="/ui/tools">Tools</Link>
       </div>
+      <div>
+        <Link href="/ui/multiple-tools">Multiple Tools</Link>
+      </div>
     </>
   );
 }
