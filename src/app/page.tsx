@@ -49,6 +49,9 @@ export default function Home() {
       <div>
         <Link href="/ui/generate-image-tool">Generate Image Tool</Link>
       </div>
+      <div>
+        <Link href="/ui/client-side-tools">Client Side Tools</Link>
+      </div>
     </>
   );
 }
