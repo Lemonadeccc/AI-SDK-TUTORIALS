@@ -31,6 +31,9 @@ export default function Home() {
       <div>
         <Link href="/ui/transcribe-audio">Transcribe Audio</Link>
       </div >
+      <div>
+        <Link href="/ui/generate-speech">Generate Speech</Link>
+      </div >
     </>
   );
 }
