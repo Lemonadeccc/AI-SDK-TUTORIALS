@@ -55,6 +55,9 @@ export default function Home() {
       <div>
         <Link href="/ui/mcp-tools">MCP Tools</Link>
       </div>
+      <div>
+        <Link href="/ui/reasoning">Reasoning</Link>
+      </div>
     </>
   );
 }
