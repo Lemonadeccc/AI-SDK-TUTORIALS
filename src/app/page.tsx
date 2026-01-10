@@ -61,6 +61,9 @@ export default function Home() {
       <div>
         <Link href="/ui/message-metadata">Message Metadata</Link>
       </div>
+      <div>
+        <Link href="/ui/provider-management">Provider Management</Link>
+      </div>
     </>
   );
 }
